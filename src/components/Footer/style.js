@@ -2,6 +2,7 @@ import { styled } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import style from 'styled-components';
+import Button from '@material-ui/core/Button';
 
 export const MyAppBar = styled(AppBar)({
   backgroundColor: '#E5E5E5',
@@ -13,6 +14,10 @@ export const MyAppBar = styled(AppBar)({
 export const MyToolbar = styled(Toolbar)({
   margin: '20px 80px 20px 80px',
   justifyContent: 'space-between',
+
+  ['@media (max-width:780px)']: {
+    flexDirection: 'column',
+  },
 });
 
 export const IconsContainer = style.div`
@@ -41,17 +46,31 @@ export const LinksContainer = style.div`
 export const FootLogo = style.div`
   height: 100px;
   width: 100px;
+  @media (max-width: 768px) {
+    height: 60px;
+    width: 40px;
+  }
 `;
 export const TollbarText = style.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #023047;
   
 `;
 export const TextLinks = style.div`
   width: 100%;
   display: flex;
   @media (max-width: 768px) {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
+`;
+export const MyButton = style(Button)`
+  color: #023047;
+`;
+export const ButtonsCont = style.div`
+display: flex;
+@media (max-width: 768px) {
+  flex-direction: column;
+}
 `;

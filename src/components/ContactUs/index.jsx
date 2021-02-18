@@ -1,37 +1,31 @@
 import React from 'react';
 import TextField from '@material-ui/core/TextField';
-import Button from '@material-ui/core/Button';
 
-import { Title, TitleCont, DivContainer } from '../../assets/style/style';
-import { Divider } from '@material-ui/core';
+import { DivContainer } from '../../assets/style/style';
 
-import { MyForm } from './style';
+import { MyForm, MyButton } from './style';
 
-const ContactUS = ({ title }) => {
+const ContactUS = () => {
   const handleSubmit = () => {
     console.log('ddd');
   };
 
   return (
     <DivContainer>
-      <TitleCont>
-        <Title>{title}</Title>
-        <Divider />
-      </TitleCont>
-
       <MyForm onSubmit={handleSubmit}>
         <TextField required id='standard-required' label='NAME' />
 
         <TextField required id='standard-required' label='EMAIL' type='email' />
         <TextField
           id='standard-multiline-static'
-          label='text'
+          label='Nachricht'
           multiline
           rows={4}
+          variant='outlined'
         />
-        <Button type='submit' variant='contained'>
-          SEND
-        </Button>
+        <MyButton type='submit' variant='contained'>
+          SENDEN
+        </MyButton>
       </MyForm>
     </DivContainer>
   );

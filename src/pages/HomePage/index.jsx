@@ -20,14 +20,14 @@ const HomePage = ({ lang }) => {
     },
   };
   return (
-    <div>
+    <>
       <img src={BgImage} alt='logo' />
       <EasySteps title={TITLES[lang].EasySteps} />
       <Gallery />
       <Comments title={TITLES[lang].Comments} />
       <Info title={TITLES[lang].ContactUs} />
       <ContactUS title={TITLES[lang].ContactUs} />
-    </div>
+    </>
   );
 };
 

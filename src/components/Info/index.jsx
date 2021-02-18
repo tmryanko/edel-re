@@ -1,7 +1,6 @@
 import React from 'react';
 import { Title, TitleCont, DivContainer } from '../../assets/style/style';
 import PhoneIcon from '@material-ui/icons/Phone';
-import MailIcon from '@material-ui/icons/Mail';
 import MailRoundedIcon from '@material-ui/icons/MailRounded';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import { InfoCard } from './style';

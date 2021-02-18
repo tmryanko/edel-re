@@ -21,7 +21,9 @@ export const PageCont = styled.div`
 `;
 
 export const PageTitle = styled.div`
-  font-weight: bold;
+  font-weight: 700;
 `;
 
-export const PageText = styled.div``;
+export const PageText = styled.div`
+  font-weight: 500;
+`;

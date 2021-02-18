@@ -1,7 +1,6 @@
 import React from 'react';
 import SpeedDial from '@material-ui/lab/SpeedDial';
 import SpeedDialAction from '@material-ui/lab/SpeedDialAction';
-import SpeedDialIcon from '@material-ui/lab/SpeedDialIcon';
 import LanguageIcon from '@material-ui/icons/Language';
 
 import Avatar from '@material-ui/core/Avatar';
@@ -21,6 +20,10 @@ const useStyles = makeStyles((theme) => ({
     right: theme.spacing(2),
     '& .MuiFab-primary': {
       backgroundColor: '#023047',
+    },
+    '& .MuiFab-root': {
+      height: 46,
+      width: 46,
     },
   },
 }));
