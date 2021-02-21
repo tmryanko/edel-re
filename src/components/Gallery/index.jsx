@@ -22,7 +22,7 @@ const Gallery = () => {
   }, [show]);
   const handleScroll = () => {
     console.log(window.pageYOffset);
-    if (window.pageYOffset > 1200) {
+    if (window.pageYOffset > 1100) {
       setShow(true);
     }
   };
