@@ -6,7 +6,7 @@ import Gallery from '../../components/Gallery';
 import Info from '../../components/Info';
 import Comments from '../../components/Comments';
 
-import { ImgCont } from './style';
+import { ImgCont, Img } from './style';
 
 const HomePage = ({ lang }) => {
   const TITLES = {
@@ -24,7 +24,7 @@ const HomePage = ({ lang }) => {
   return (
     <>
       <ImgCont>
-        <img height='100%' width='100%' src={BgImage} alt='logo' />
+        <Img height='100%' width='100%' src={BgImage} alt='logo' />
       </ImgCont>
       <EasySteps title={TITLES[lang].EasySteps} />
       <Gallery />
