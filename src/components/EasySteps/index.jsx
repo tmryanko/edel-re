@@ -12,15 +12,20 @@ const EasySteps = ({ title }) => {
   const [show, setShow] = useState(false);
 
   useEffect(() => {
+    console.log(window.pageYOffset);
+
     window.addEventListener('scroll', handleScroll);
 
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, [show]);
+
   const handleScroll = () => {
-    console.log('sss');
-    setShow(true);
+    console.log(window.pageYOffset);
+    if (window.pageYOffset > 200) {
+      setShow(true);
+    }
   };
 
   return (
@@ -39,7 +44,7 @@ const EasySteps = ({ title }) => {
             />
           </CardCont>
         </Slide>
-        <Zoom direction='down' in={show} mountOnEnter timeout={1000}>
+        <Zoom in={show} mountOnEnter timeout={1000}>
           <CardCont>
             <StepCard
               image={mid}

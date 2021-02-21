@@ -15,4 +15,5 @@ export const MyForm = styled.form`
 `;
 export const MyButton = styled(Button)`
   background: #023047;
+  color: white;
 `;

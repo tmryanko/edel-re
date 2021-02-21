@@ -6,6 +6,8 @@ import Gallery from '../../components/Gallery';
 import Info from '../../components/Info';
 import Comments from '../../components/Comments';
 
+import { ImgCont } from './style';
+
 const HomePage = ({ lang }) => {
   const TITLES = {
     English: {
@@ -21,7 +23,9 @@ const HomePage = ({ lang }) => {
   };
   return (
     <>
-      <img src={BgImage} alt='logo' />
+      <ImgCont>
+        <img height='100%' width='100%' src={BgImage} alt='logo' />
+      </ImgCont>
       <EasySteps title={TITLES[lang].EasySteps} />
       <Gallery />
       <Comments title={TITLES[lang].Comments} />

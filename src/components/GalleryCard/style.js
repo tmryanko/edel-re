@@ -5,10 +5,9 @@ export const GalleryCardCont = styled.div`
   height: 456px;
   width: 646px;
   transition: transform 0.5s ease;
-  border-radius: 30px;
   @media (max-width: 768px) {
     height: 146px;
-    width: 160px;
+    width: 170px;
   }
   @media (min-width: 768px) {
     &:hover {

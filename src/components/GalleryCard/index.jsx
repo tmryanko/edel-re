@@ -5,7 +5,7 @@ const GalleryCard = ({ image }) => {
   return (
     <GalleryCardCont>
       <img
-        style={{ borderRadius: '30px' }}
+        style={{ borderRadius: '15px' }}
         height='100%'
         width='100%'
         src={image}
