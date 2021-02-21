@@ -15,7 +15,7 @@ export const MyToolbar = styled(Toolbar)({
   margin: '20px 80px 20px 80px',
   justifyContent: 'space-between',
 
-  ['@media (max-width:780px)']: {
+  '@media (max-width:780px)': {
     flexDirection: 'column',
   },
 });

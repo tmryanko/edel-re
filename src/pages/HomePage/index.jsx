@@ -1,6 +1,6 @@
 import React from 'react';
 import EasySteps from '../../components/EasySteps';
-import BgImage from '../../assets/images/top.svg';
+import BgImage from '../../assets/images/top.jpg';
 import ContactUS from '../../components/ContactUs';
 import Gallery from '../../components/Gallery';
 import Info from '../../components/Info';
