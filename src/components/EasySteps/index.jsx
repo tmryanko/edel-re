@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Slide, Zoom, Divider } from '@material-ui/core';
+import { Zoom, Divider } from '@material-ui/core';
 
 import StepCard from '../StepCard';
 import left from '../../assets/images/leftStep.svg';

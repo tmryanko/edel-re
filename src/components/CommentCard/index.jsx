@@ -1,7 +1,7 @@
 import React from 'react';
 import { CardContainer, CardName, CardText } from './style';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faQuoteLeft, faQuoteRight } from '@fortawesome/free-solid-svg-icons';
+import { faQuoteRight } from '@fortawesome/free-solid-svg-icons';
 
 const CommentCard = ({ text, name }) => {
   return (
