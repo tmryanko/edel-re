@@ -29,7 +29,7 @@ const HomePage = ({ lang }) => {
       <ImgCont>
         <Img height='100%' width='100%' src={BgImage} alt='logo' />
       </ImgCont>
-      <EasySteps title={TITLES[lang].EasySteps} />
+      <EasySteps title={TITLES[lang].EasySteps} lang={lang} />
       <Gallery />
       <AboutUs title={TITLES[lang].AboutUS} lang={lang} />
       <Comments title={TITLES[lang].Comments} />

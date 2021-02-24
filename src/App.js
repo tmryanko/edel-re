@@ -11,7 +11,7 @@ import Terms from './pages/Terms';
 import Impressum from './pages/Impressum';
 
 function App() {
-  const [lang, setlang] = useState('English');
+  const [lang, setlang] = useState('Deutschland');
 
   const handleLangButton = (e) => {
     console.log(e);
