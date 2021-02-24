@@ -17,7 +17,7 @@ export const PageCont = styled.div`
   word-break: break-word;
   letter-spacing: 0.004em;
 
-  color: #000000;
+  color: #023047;
   @media (max-width: 768px) {
     margin: 10px 0 10px 0;
     padding: 10px;

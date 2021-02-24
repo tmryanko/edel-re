@@ -11,7 +11,7 @@ export const MyAppBar = styled(AppBar)({
 
 export const MyToolbar = styled(Toolbar)({
   alignSelf: 'center',
-  margin: 100,
+  margin: '50px 0 100px 0',
 });
 
 export const AppLogo = style.div`

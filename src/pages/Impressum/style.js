@@ -15,7 +15,7 @@ export const PageCont = styled.div`
   text-align: center;
   letter-spacing: 0.004em;
 
-  color: #000000;
+  color: #023047;
   padding: 30px;
   margin: 100px 0 100px 0;
   @media (max-width: 768px) {

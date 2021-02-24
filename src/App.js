@@ -34,7 +34,7 @@ function App() {
       <Footer />
 
       <Fab onClick={(e) => handleLangButton(e)} />
-      <ActionButton />
+      <ActionButton lang={lang} />
     </div>
   );
 }

@@ -22,7 +22,15 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const ActionButton = () => {
+const ActionButton = ({ lang }) => {
+  const TEXT = {
+    English: {
+      PROPERTIES: `ALL PROPERTIES`,
+    },
+    Deutschland: {
+      PROPERTIES: `ALLE OBJEKTE`,
+    },
+  };
   const scrollDirection = useScrollDirection();
 
   const classes = useStyles();
@@ -46,21 +54,16 @@ const ActionButton = () => {
   };
   return (
     <div>
-      {isShown ? (
-        <Fab className={classes.fab} onMouseEnter={() => setIsShown(false)}>
-          <HomeIcon />
-        </Fab>
-      ) : (
-        <Fab
-          className={classes.fab}
-          variant='extended'
-          onMouseLeave={() => setIsShown(true)}
-          onClick={handleFabClick}
-        >
-          <HomeIcon />
-          ALL PROPERTIES
-        </Fab>
-      )}
+      <Fab
+        className={classes.fab}
+        variant={isShown ? 'extended' : 'round'}
+        onMouseEnter={() => setIsShown(true)}
+        onMouseLeave={() => setIsShown(false)}
+        onClick={handleFabClick}
+      >
+        <HomeIcon />
+        {isShown && TEXT[lang].PROPERTIES}
+      </Fab>
     </div>
   );
 };
