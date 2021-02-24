@@ -31,7 +31,7 @@ const Info = ({ title }) => {
 
         <InfoCardText
           style={{ colo: 'transperent' }}
-          href='malito:Office@edel-re.com'
+          href='mailto:Office@edel-re.com'
           target='_self'
           data-content='Office@edel-re.com'
           data-type='mail'
