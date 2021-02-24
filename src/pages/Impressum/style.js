@@ -18,6 +18,11 @@ export const PageCont = styled.div`
   color: #000000;
   padding: 30px;
   margin: 100px 0 100px 0;
+  @media (max-width: 768px) {
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    width: 90%;
+  }
 `;
 
 export const PageTitle = styled.div`

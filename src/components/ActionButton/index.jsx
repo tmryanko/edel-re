@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Fab from '@material-ui/core/Fab';
 import HomeIcon from '@material-ui/icons/Home';
 import { makeStyles } from '@material-ui/core/styles';
+import { useScrollDirection } from '../../hooks/useScrollDirection';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -22,10 +23,21 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const ActionButton = () => {
+  const scrollDirection = useScrollDirection();
+
   const classes = useStyles();
 
   const [isShown, setIsShown] = useState(true);
 
+  console.log(scrollDirection);
+
+  useEffect(() => {
+    if (scrollDirection === 'up') {
+      setIsShown(false);
+    } else {
+      setIsShown(true);
+    }
+  }, [scrollDirection]);
   const handleFabClick = () => {
     window.open(
       'https://www.immobilienscout24.de/anbieter/edel-real-estate-gmbh/a784903773e5aed7405977b',
