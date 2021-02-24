@@ -36,15 +36,15 @@ const EasySteps = ({ title }) => {
       </TitleCont>
 
       <CardsContainer>
-        <Slide direction='right' in={show} mountOnEnter timeout={1000}>
+        <Zoom direction='down' in={show} mountOnEnter timeout={1000}>
           <CardCont>
             <StepCard
               image={left}
               text='Finden Sie jetzt Ihr neues Zuhaus und kontaktieren Sie uns. Gern bewerten wir auch Ihre Immobilie'
             />
           </CardCont>
-        </Slide>
-        <Zoom in={show} mountOnEnter timeout={1000}>
+        </Zoom>
+        <Zoom in={show} mountOnEnter timeout={2000}>
           <CardCont>
             <StepCard
               image={mid}
@@ -52,14 +52,14 @@ const EasySteps = ({ title }) => {
             />
           </CardCont>
         </Zoom>
-        <Slide direction='left' in={show} mountOnEnter timeout={1000}>
+        <Zoom direction='up' in={show} mountOnEnter timeout={3000}>
           <CardCont>
             <StepCard
               image={right}
               text='Wir begleiten Sie professionell bei jedem Schritt'
             />
           </CardCont>
-        </Slide>
+        </Zoom>
       </CardsContainer>
     </DivContainer>
   );

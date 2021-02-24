@@ -5,11 +5,11 @@ export const GalleryCont = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   align-self: center;
-  width: 80%;
-  gap: 50px;
+  width: 95%;
+  gap: 55px;
   padding: 50px;
   @media (max-width: 768px) {
-    width: 100%;
+    width: 97%;
     gap: 5px;
     padding: 5px;
   }

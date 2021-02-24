@@ -5,9 +5,9 @@ export const ImgCont = styled.div`
   width: 100%;
 
   @media (max-width: 768px) {
-    height: 203px;
+    height: 152px;
   }
 `;
 export const Img = styled.img`
-  object-fit: cover;
+  //   object-fit: cover;
 `;

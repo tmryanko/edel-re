@@ -10,7 +10,7 @@ export const Title = styled.h2`
   color: #979797;
 `;
 export const TitleCont = styled.div`
-  width: 15%;
+  width: 24%;
   align-self: center;
   @media (max-width: 768px) {
     width: 100%;
@@ -20,8 +20,8 @@ export const TitleCont = styled.div`
 export const DivContainer = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 50px;
+  padding: 50px 0px 50px 0px;
   @media (max-width: 768px) {
-    padding: 5px;
+    padding: 20px 0px 20px 0px;
   }
 `;

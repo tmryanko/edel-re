@@ -7,6 +7,7 @@ import Info from '../../components/Info';
 import Comments from '../../components/Comments';
 
 import { ImgCont, Img } from './style';
+import AboutUs from '../../components/AboutUs';
 
 const HomePage = ({ lang }) => {
   const TITLES = {
@@ -14,11 +15,13 @@ const HomePage = ({ lang }) => {
       EasySteps: '3 EASY STEPS',
       Comments: 'COMMENTS',
       ContactUs: 'CONTACT US',
+      AboutUS: 'ABOUT US',
     },
     Deutschland: {
       EasySteps: '3 EINFACHE SCHRITTE',
       Comments: 'KUNDEN ÜBER UNS',
       ContactUs: 'KONTAKT',
+      AboutUS: 'UBER UNS',
     },
   };
   return (
@@ -28,6 +31,7 @@ const HomePage = ({ lang }) => {
       </ImgCont>
       <EasySteps title={TITLES[lang].EasySteps} />
       <Gallery />
+      <AboutUs title={TITLES[lang].AboutUS} lang={lang} />
       <Comments title={TITLES[lang].Comments} />
       <Info title={TITLES[lang].ContactUs} />
       <ContactUS title={TITLES[lang].ContactUs} />

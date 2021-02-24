@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Fab from '@material-ui/core/Fab';
-import EditIcon from '@material-ui/icons/Edit';
+import HomeIcon from '@material-ui/icons/Home';
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
@@ -36,7 +36,7 @@ const ActionButton = () => {
     <div>
       {isShown ? (
         <Fab className={classes.fab} onMouseEnter={() => setIsShown(false)}>
-          <EditIcon />
+          <HomeIcon />
         </Fab>
       ) : (
         <Fab
@@ -45,7 +45,7 @@ const ActionButton = () => {
           onMouseLeave={() => setIsShown(true)}
           onClick={handleFabClick}
         >
-          <EditIcon />
+          <HomeIcon />
           ALL PROPERTIES
         </Fab>
       )}

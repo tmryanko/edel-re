@@ -16,4 +16,7 @@ export const CardCont = styled.div`
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  @media (max-width: 768px) {
+    width: 80%;
+  }
 `;
