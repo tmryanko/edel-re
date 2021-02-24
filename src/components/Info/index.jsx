@@ -19,7 +19,7 @@ const Info = ({ title }) => {
           htmlColor='#023047'
           style={{ backgroundColor: 'white', borderRadius: 50, padding: 2 }}
         />
-        <InfoCardText href='tel:+49 (0) 30 826 29 13 - 0'>
+        <InfoCardText href='tel:+49 030 826 29 13 - 0'>
           +49 (0) 30 826 29 13 - 0
         </InfoCardText>
       </InfoCard>
