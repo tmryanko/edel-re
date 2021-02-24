@@ -10,7 +10,7 @@ export const Title = styled.h2`
   color: #979797;
 `;
 export const TitleCont = styled.div`
-  width: 24%;
+  width: 28%;
   align-self: center;
   @media (max-width: 768px) {
     width: 100%;

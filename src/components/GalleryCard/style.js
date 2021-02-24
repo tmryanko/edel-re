@@ -5,6 +5,10 @@ export const GalleryCardCont = styled.div`
   height: 456px;
   width: 646px;
   transition: transform 0.5s ease;
+  @media (min-width: 768px) and (max-width: 1415px) {
+    height: 406px;
+    width: 540px;
+  }
   @media (max-width: 768px) {
     height: 146px;
     width: 170px;
@@ -14,4 +18,10 @@ export const GalleryCardCont = styled.div`
       transform: scale(1.1);
     }
   }
+`;
+
+export const GalleryImg = styled.img`
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
 `;
