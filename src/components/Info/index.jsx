@@ -19,7 +19,7 @@ const Info = ({ title }) => {
           htmlColor='#023047'
           style={{ backgroundColor: 'white', borderRadius: 50, padding: 2 }}
         />
-        <InfoCardText href='+49 (0) 30 826 29 13 - 0'>
+        <InfoCardText href='tel:+49 (0) 30 826 29 13 - 0'>
           +49 (0) 30 826 29 13 - 0
         </InfoCardText>
       </InfoCard>
@@ -32,6 +32,9 @@ const Info = ({ title }) => {
         <InfoCardText
           style={{ colo: 'transperent' }}
           href='malito:Office@edel-re.com'
+          target='_self'
+          data-content='info@shemeshiran.co.il'
+          data-type='mail'
         >
           Office@edel-re.com
         </InfoCardText>
