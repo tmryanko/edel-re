@@ -33,7 +33,7 @@ const Info = ({ title }) => {
           style={{ colo: 'transperent' }}
           href='malito:Office@edel-re.com'
           target='_self'
-          data-content='info@shemeshiran.co.il'
+          data-content='Office@edel-re.com'
           data-type='mail'
         >
           Office@edel-re.com
