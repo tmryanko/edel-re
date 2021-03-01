@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Zoom, Divider } from '@material-ui/core';
 
 import StepCard from '../StepCard';
@@ -9,7 +9,6 @@ import { CardsContainer, CardCont } from './style';
 import { Title, TitleCont, DivContainer } from '../../assets/style/style';
 
 const EasySteps = ({ title, lang }) => {
-  const [show, setShow] = useState(false);
   const TEXT = {
     English: {
       phone: `
@@ -31,22 +30,22 @@ We’ll be happy to value yours for free.
     },
   };
 
-  useEffect(() => {
-    console.log(window.pageYOffset);
+  // useEffect(() => {
+  //   console.log(window.pageYOffset);
 
-    window.addEventListener('scroll', handleScroll);
+  //   window.addEventListener('scroll', handleScroll);
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, [show]);
+  //   return () => {
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  // }, [show]);
 
-  const handleScroll = () => {
-    console.log(window.pageYOffset);
-    if (window.pageYOffset > 200) {
-      setShow(true);
-    }
-  };
+  // const handleScroll = () => {
+  //   console.log(window.pageYOffset);
+  //   // if (window.pageYOffset > 200) {
+  //   setShow(true);
+  //   // }
+  // };
 
   return (
     <DivContainer>
@@ -56,17 +55,17 @@ We’ll be happy to value yours for free.
       </TitleCont>
 
       <CardsContainer>
-        <Zoom direction='down' in={show} mountOnEnter timeout={1000}>
+        <Zoom direction='down' in={true} mountOnEnter timeout={1000}>
           <CardCont>
             <StepCard image={left} text={TEXT[lang].phone} />
           </CardCont>
         </Zoom>
-        <Zoom in={show} mountOnEnter timeout={2000}>
+        <Zoom in={true} mountOnEnter timeout={2000}>
           <CardCont>
             <StepCard image={mid} text={TEXT[lang].meeting} />
           </CardCont>
         </Zoom>
-        <Zoom direction='up' in={show} mountOnEnter timeout={3000}>
+        <Zoom direction='up' in={true} mountOnEnter timeout={3000}>
           <CardCont>
             <StepCard image={right} text={TEXT[lang].sign} />
           </CardCont>

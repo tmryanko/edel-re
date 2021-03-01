@@ -1,12 +1,14 @@
 import React from 'react';
 import EasySteps from '../../components/EasySteps';
 import BgImage from '../../assets/images/top.jpg';
+import logo from '../../assets/images/logo.svg';
+
 import ContactUS from '../../components/ContactUs';
 import Gallery from '../../components/Gallery';
 import Info from '../../components/Info';
 import Comments from '../../components/Comments';
 
-import { ImgCont, Img } from './style';
+import { ImgCont, Img, Logo } from './style';
 import AboutUs from '../../components/AboutUs';
 
 const HomePage = ({ lang }) => {
@@ -27,6 +29,8 @@ const HomePage = ({ lang }) => {
   return (
     <>
       <ImgCont>
+        <Logo height='100%' width='100%' src={logo} alt='logo' />
+
         <Img height='100%' width='100%' src={BgImage} alt='logo' />
       </ImgCont>
       <EasySteps title={TITLES[lang].EasySteps} lang={lang} />

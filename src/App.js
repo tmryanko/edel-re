@@ -3,7 +3,6 @@ import { Switch, Route } from 'react-router-dom';
 import Fab from './components/Fab';
 import ActionButton from './components/ActionButton';
 import HomePage from './pages/HomePage';
-import AppBar from './components/AppBar';
 import Footer from './components/Footer';
 
 import './App.css';
@@ -19,7 +18,6 @@ function App() {
   };
   return (
     <div className='App'>
-      <AppBar />
       <Switch>
         <Route exact path='/'>
           <HomePage lang={lang} />
