@@ -21,11 +21,15 @@ export const MyForm = styled.form`
   }
 `;
 export const MyButton = styled(Button)`
-  background: #023047;
-  color: white;
   width: 50%;
   align-self: center;
-  margin: 10px 0px !important;
+  &.MuiButton-contained {
+    background-color: #023047;
+    color: white;
+  }
+  &.MuiButtonBase-root {
+    margin: 10px 0px;
+  }
 `;
 export const MyTextField = styled(TextField)`
   width: 75%;

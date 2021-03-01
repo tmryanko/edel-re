@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const InfoCard = styled.div`
-  padding: 5px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;

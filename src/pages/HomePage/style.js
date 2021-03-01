@@ -4,7 +4,7 @@ export const ImgCont = styled.div`
   width: 100%;
   position: relative;
   @media (max-width: 768px) {
-    height: 152px;
+    height: 212px;
   }
 `;
 export const Img = styled.img`
@@ -21,6 +21,6 @@ export const Logo = styled.img`
     height: 50px;
     width: 40px;
     left: 44px;
-    top: 42px;
+    top: 72px;
   }
 `;
