@@ -9,6 +9,7 @@ export const GalleryCardCont = styled.div`
   @media (min-width: 768px) and (max-width: 1415px) {
     height: 406px;
     width: 540px;
+    margin: 10px;
   }
   @media (max-width: 768px) {
     height: 146px;
