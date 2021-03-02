@@ -37,8 +37,6 @@ const ActionButton = ({ lang }) => {
 
   const [isShown, setIsShown] = useState(true);
 
-  console.log(scrollDirection);
-
   useEffect(() => {
     if (scrollDirection === 'up') {
       setIsShown(false);

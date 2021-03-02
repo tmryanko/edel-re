@@ -13,7 +13,6 @@ function App() {
   const [lang, setlang] = useState('Deutschland');
 
   const handleLangButton = (e) => {
-    console.log(e);
     setlang(e);
   };
   return (

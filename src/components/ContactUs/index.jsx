@@ -19,7 +19,6 @@ const ContactUS = () => {
   };
   const handleFormSubmit = (e) => {
     e.preventDefault(); //This is important, i'm not sure why, but the email won't send without it
-    console.log(e.target);
     emailjs
       .sendForm(
         'service_k3xpb5l',

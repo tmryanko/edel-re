@@ -21,7 +21,6 @@ const Gallery = () => {
     };
   }, [show]);
   const handleScroll = () => {
-    console.log(window.pageYOffset);
     if (window.pageYOffset > 500) {
       setShow(true);
     }
