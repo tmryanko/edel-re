@@ -13,11 +13,11 @@ export const MyForm = styled.form`
   border: 1px solid #e5e5e5;
   box-sizing: border-box;
   border-radius: 10px;
-  width: 15%;
+  width: 12%;
   @media (max-width: 768px) {
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 85%;
+    width: 83%;
   }
 `;
 export const MyButton = styled(Button)`
@@ -32,6 +32,6 @@ export const MyButton = styled(Button)`
   }
 `;
 export const MyTextField = styled(TextField)`
-  width: 75%;
+  // width: 75%;
   margin: 10px 0px !important;
 `;

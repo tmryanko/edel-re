@@ -10,6 +10,7 @@ import Comments from '../../components/Comments';
 
 import { ImgCont, Img, Logo } from './style';
 import AboutUs from '../../components/AboutUs';
+import Rank from '../../components/Rank';
 
 const HomePage = ({ lang }) => {
   const TITLES = {
@@ -30,7 +31,6 @@ const HomePage = ({ lang }) => {
     <>
       <ImgCont>
         <Logo height='100%' width='100%' src={logo} alt='logo' />
-
         <Img height='100%' width='100%' src={BgImage} alt='logo' />
       </ImgCont>
       <EasySteps title={TITLES[lang].EasySteps} lang={lang} />
@@ -39,6 +39,7 @@ const HomePage = ({ lang }) => {
       <Comments title={TITLES[lang].Comments} />
       <Info title={TITLES[lang].ContactUs} />
       <ContactUS title={TITLES[lang].ContactUs} />
+      <Rank />
     </>
   );
 };
