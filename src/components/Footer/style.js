@@ -61,12 +61,16 @@ export const TollbarText = style.div`
 export const TextLinks = style.div`
   width: 100%;
   display: flex;
+  // color: #023047;
   @media (max-width: 768px) {
     flex-direction: column-reverse;
   }
 `;
 export const MyButton = style(Button)`
-  color: #023047;
+  &.MuiButton-textPrimary{
+    color: #023047;
+  }
+  
 `;
 export const ButtonsCont = style.div`
 display: flex;

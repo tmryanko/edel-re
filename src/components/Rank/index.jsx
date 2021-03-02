@@ -1,9 +1,7 @@
 import React from 'react';
 import { DivContainer } from '../../assets/style/style';
-import { RankContainer, RankingStar } from './style';
-import google from '../../assets/images/google.svg';
-
-import Rating from '@material-ui/lab/Rating';
+import { RankContainer, RankingStar, MuiRating } from './style';
+import google from '../../assets/images/google.png';
 
 const Rank = () => {
   const handleRankClick = () => {
@@ -17,7 +15,7 @@ const Rank = () => {
           <div>Google Bewertung</div>
           <RankingStar>
             <div>4.5</div>
-            <Rating
+            <MuiRating
               disabled
               name='size-medium'
               defaultValue={4.5}
