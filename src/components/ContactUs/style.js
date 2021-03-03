@@ -7,13 +7,13 @@ export const MyForm = styled.form`
   display: flex;
   flex-direction: column;
   // gap: 20px;
-  padding: 10px;
+  padding: 10px 10px;
   align-self: center;
   background: rgba(255, 255, 255, 0.7);
   border: 1px solid #e5e5e5;
   box-sizing: border-box;
   border-radius: 10px;
-  width: 14%;
+  width: 17%;
   @media (max-width: 768px) {
     margin-top: 20px;
     margin-bottom: 20px;

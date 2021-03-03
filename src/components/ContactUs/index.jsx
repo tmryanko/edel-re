@@ -39,7 +39,7 @@ const ContactUS = () => {
       );
   };
   return (
-    <DivContainer>
+    <>
       <MyForm onSubmit={handleFormSubmit}>
         <MyTextField
           required
@@ -85,7 +85,7 @@ const ContactUS = () => {
           message sent successfully
         </Alert>
       </Snackbar>
-    </DivContainer>
+    </>
   );
 };
 
