@@ -13,7 +13,7 @@ export const MyForm = styled.form`
   border: 1px solid #e5e5e5;
   box-sizing: border-box;
   border-radius: 10px;
-  width: 12%;
+  width: 14%;
   @media (max-width: 768px) {
     margin-top: 20px;
     margin-bottom: 20px;
