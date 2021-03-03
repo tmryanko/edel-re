@@ -4,8 +4,6 @@ import Snackbar from '@material-ui/core/Snackbar';
 import Alert from '@material-ui/lab/Alert';
 import TextField from '@material-ui/core/TextField';
 
-import { DivContainer } from '../../assets/style/style';
-
 import { MyForm, MyButton, MyTextField } from './style';
 import { useState } from 'react';
 
