@@ -10,6 +10,7 @@ export const AboutUsCont = styled.div`
     position: relative;
     justify-content: center;
     align-self: center;
+    
   }
 }
 `;
@@ -37,6 +38,7 @@ export const AboutUsText = styled.div`
     font-size: 16px;
     line-height: 25px;
     width: 95%;
+    margin-top: 10px;
   }
   @media (min-width: 768px) {
     position: absolute;

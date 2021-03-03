@@ -39,9 +39,9 @@ const ActionButton = ({ lang }) => {
 
   useEffect(() => {
     if (scrollDirection === 'up') {
-      setIsShown(false);
-    } else {
       setIsShown(true);
+    } else {
+      setIsShown(false);
     }
   }, [scrollDirection]);
   const handleFabClick = () => {

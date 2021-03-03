@@ -16,7 +16,9 @@ export const MyToolbar = styled(Toolbar)({
   justifyContent: 'space-between',
 
   '@media (max-width:780px)': {
+    margin: '20px 0 20px 0',
     flexDirection: 'column',
+    fontSize: 11,
   },
 });
 
@@ -69,6 +71,10 @@ export const TextLinks = style.div`
 export const MyButton = style(Button)`
   &.MuiButton-textPrimary{
     color: #023047;
+    @media (max-width: 768px) {
+      font-size: 11px;
+    }
+    
   }
   
 `;
