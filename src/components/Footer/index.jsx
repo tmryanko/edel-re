@@ -1,5 +1,8 @@
 import React from 'react';
 import FooterLogo from '../../assets/images/footerLogo.svg';
+import Facebook from '../../assets/images/facebook.png';
+import Linkedn from '../../assets/images/linkedin.png';
+import Instagram from '../../assets/images/instagram.svg';
 import {
   MyAppBar,
   MyToolbar,
@@ -9,6 +12,8 @@ import {
   FootLogo,
   MyButton,
   ButtonsCont,
+  IconsContainer,
+  Img,
 } from './style';
 
 const index = () => {
@@ -46,6 +51,29 @@ const index = () => {
               </MyButton>
             </ButtonsCont>
           </LinksContainer>
+          <IconsContainer>
+            <a
+              href='https://www.facebook.com/EDELGMBH'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <Img src={Facebook} alt='' />
+            </a>
+            <a
+              href='https://www.instagram.com/edel_real_estate/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <Img src={Instagram} alt='' />
+            </a>
+            <a
+              href='https://www.linkedin.com/company/grand-urban-immobilien-group-guig-gmbh/about/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <Img src={Linkedn} alt='' />
+            </a>
+          </IconsContainer>
         </TextLinks>
       </MyToolbar>
     </MyAppBar>

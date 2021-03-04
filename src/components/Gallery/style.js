@@ -10,7 +10,7 @@ export const GalleryCont = styled.div`
   margin: 50px;
   @media (max-width: 768px) {
     width: 97%;
-    gap: 8px;
+    gap: 0px;
     padding: 5px;
   }
 `;

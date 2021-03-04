@@ -23,8 +23,8 @@ export const MyToolbar = styled(Toolbar)({
 });
 
 export const IconsContainer = style.div`
-  display: flex;
-  gap: 5px;
+  // display: flex;
+  // gap: 5px;
 `;
 export const IconContainer = style.div`
   display: flex;
@@ -83,4 +83,11 @@ display: flex;
 @media (max-width: 768px) {
   flex-direction: column;
 }
+`;
+
+export const Img = style.img`
+  margin: 4px;  
+  @media (max-width: 768px) {
+    height: 25px;
+  }
 `;
