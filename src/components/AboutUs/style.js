@@ -16,6 +16,8 @@ export const AboutUsCont = styled.div`
 `;
 
 export const AboutUsImg = styled.img`
+  // height: 90%;
+  width: 95%;
   @media (max-width: 768px) {
     height: 90%;
     width: 100%;
@@ -26,7 +28,7 @@ export const AboutUsText = styled.div`
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 16px;
   line-height: 40px;
 
   display: flex;
@@ -40,7 +42,17 @@ export const AboutUsText = styled.div`
     width: 95%;
     margin-top: 10px;
   }
-  @media (min-width: 768px) {
+  @media (min-width: 768px) and (max-width: 1100px) {
+    font-size: 16px;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    left: 80px;
+    width: 58%;
+  }
+
+  @media (min-width: 1100px) {
+    font-size: 24px;
     position: absolute;
     top: 50px;
     right: 0;

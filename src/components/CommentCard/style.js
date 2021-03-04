@@ -13,12 +13,19 @@ export const CardContainer = styled.div`
   justify-content: space-between;
   padding: 10px;
   background: #023047;
+
   @media (max-width: 768px) {
     height: 280px;
     padding: 10px;
     margin: 5px;
     font-size: 16px;
   }
+  // @media (min-width: 768px) and (max-width: 1100px) {
+  //   height: 280px;
+  //   padding: 10px;
+  //   margin: 5px;
+  //   font-size: 16px;
+  // }
 `;
 export const CardName = styled.div`
   margin-top: auto;

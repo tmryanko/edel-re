@@ -7,7 +7,7 @@ export const GalleryCont = styled.div`
   align-self: center;
   width: 95%;
   gap: 55px;
-  padding: 50px;
+  margin: 50px;
   @media (max-width: 768px) {
     width: 97%;
     gap: 8px;
