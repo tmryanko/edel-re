@@ -1,6 +1,6 @@
 import React from 'react';
 import { DivContainer } from '../../assets/style/style';
-import { RankContainer, RankingStar, MuiRating } from './style';
+import { RankContainer, RankingStar, MuiRating, RightContainer } from './style';
 import google from '../../assets/images/google.png';
 
 const Rank = () => {
@@ -11,7 +11,7 @@ const Rank = () => {
     <DivContainer>
       <RankContainer onClick={handleRankClick}>
         <img src={google} alt='' />
-        <div>
+        <RightContainer>
           <div>Google Bewertung</div>
           <RankingStar>
             <div>4.5</div>
@@ -22,7 +22,7 @@ const Rank = () => {
               precision={0.5}
             />
           </RankingStar>
-        </div>
+        </RightContainer>
       </RankContainer>
     </DivContainer>
   );

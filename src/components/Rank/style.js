@@ -21,3 +21,6 @@ export const MuiRating = styled(Rating)`
     opacity: 1;
   }
 `;
+export const RightContainer = styled.div`
+  margin-left: 6px;
+`;
