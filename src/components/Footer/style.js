@@ -23,7 +23,8 @@ export const MyToolbar = styled(Toolbar)({
 });
 
 export const IconsContainer = style.div`
-  // display: flex;
+  display: flex;
+  justify-content: center;
   // gap: 5px;
 `;
 export const IconContainer = style.div`
