@@ -16,9 +16,9 @@ Our areas of expertise are acquisition, management, brokerage and sale of real e
     },
     Deutschland: {
       about: `
-      Die EDEL Real Estate ist ein etabliertes Unternehmen in der Immobilienbranche. Dieses Geschäft ist unsere Leidenschaft und deshalb arbeiten wir rund um die Uhr für Käufer und Verkäufer, um ihren Interessen bestmöglich gerecht zu werden. Über die Jahre hinaus haben wir große Erfahrung in der Immobilienbranche gesammelt, um gezielt auf den Bedürfnissen der verschiedenen Arten von Investoren entgegenzukommen.
+      Die EDEL Real Estate ist ein etabliertes Unternehmen in der Immobilienbranche. Dieses Geschäft ist unsere Leidenschaft und deshalb arbeiten wir rund um die Uhr für Käufer und Verkäufer, um ihren Interessen bestmöglich gerecht zu werden. Über die Jahre hinaus haben wir große Erfahrungen in der Immobilienbranche gesammelt, um gezielt auf den Bedürfnissen der verschiedenen Investoreneinzugehen Arten von Investoren entgegenzukommen.
 
-Unser Schwerpunkt liegt auf die Bereiche Ankauf, Verkauf, Vermietung und Vermögensverwaltung.
+Unsere Schwerpunkte liegen in den Bereichen Ankaufs, Verkauf, der Vermietung und der Vermögensverwaltung.
 
 
       `,

@@ -24,7 +24,7 @@ const HomePage = ({ lang }) => {
       EasySteps: '3 EINFACHE SCHRITTE',
       Comments: 'KUNDEN ÜBER UNS',
       ContactUs: 'KONTAKT',
-      AboutUS: 'UBER UNS',
+      AboutUS: 'ÜBER UNS',
     },
   };
   return (

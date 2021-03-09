@@ -22,7 +22,7 @@ function Impressum() {
       </PageText>
       <PageTitle>Umsatzsteuer:</PageTitle>
       <PageText>
-        Umsatzsteueridentifikationsnummer: DE
+        Umsatzsteuer ID DE333984651
         <br />
         <br />
         30/271/50661
