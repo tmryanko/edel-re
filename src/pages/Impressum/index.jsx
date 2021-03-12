@@ -21,12 +21,7 @@ function Impressum() {
         E-Mail:office@edel-re.com
       </PageText>
       <PageTitle>Umsatzsteuer:</PageTitle>
-      <PageText>
-        Umsatzsteuer ID DE333984651
-        <br />
-        <br />
-        30/271/50661
-      </PageText>
+      <PageText>Umsatzsteuer ID DE333984651</PageText>
       <PageTitle>Register:</PageTitle>
       <PageText>
         Eingetragen im Handelsregister

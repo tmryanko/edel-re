@@ -25,7 +25,7 @@ We’ll be happy to value yours for free.
       phone: `
       Finden Sie jetzt Ihr neues Zuhause und kontaktieren Sie uns. Gerne bewerten wir auch Ihre Immobilie
       `,
-      meeting: `Wenn Sie ihr Grundstück verkaufen oder in den Berliner Immobilienmarkt investieren möchten, sind wir Ihr richtiger Ansprechpartner, um nach einem verlässlichen Partner dafür suchen, Sind wir Ihre Ansprechpartner`,
+      meeting: `Wenn Sie ihr Grundstück verkaufen oder in den Berliner Immobilienmarkt investieren möchten, sind wir Ihr richtiger Ansprechpartner, um nach einem verlässlichen Partner dafür zu suchen`,
       sign: `Wir begleiten Sie professionell bei jedem Schritt`,
     },
   };
