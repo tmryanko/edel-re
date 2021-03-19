@@ -60,7 +60,7 @@ const ActionButton = ({ lang }) => {
         onClick={handleFabClick}
       >
         <HomeIcon />
-        {isShown && TEXT[lang].PROPERTIES}
+        {isShown && <span>{TEXT[lang].PROPERTIES}</span>}
       </Fab>
     </div>
   );

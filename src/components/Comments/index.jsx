@@ -18,8 +18,14 @@ const Comments = ({ title }) => {
       </TitleCont>
       <CommentsCont>
         <AutoPlaySwipeableViews interval={6000}>
-          {COMMENTS_LIST.map((comment) => {
-            return <CommentCard name={comment.name} text={comment.text} />;
+          {COMMENTS_LIST.map((comment, index) => {
+            return (
+              <CommentCard
+                key={`${comment.name} ${index}`}
+                name={comment.name}
+                text={comment.text}
+              />
+            );
           })}
           {/* <CommentCard name='Angela. K' text='text 1' />
           <CommentCard name='name' text='text 2' />

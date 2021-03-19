@@ -59,7 +59,7 @@ const Fab = ({ onClick }) => {
         // className={`${classes.speedDial} MuiFab-primary`}
         ariaLabel='SpeedDial openIcon example'
         // hidden={hidden}
-        icon={<LanguageIcon openIcon={<LanguageIcon />} />}
+        icon={<LanguageIcon />}
         onClose={handleClose}
         onOpen={handleOpen}
         open={open}
